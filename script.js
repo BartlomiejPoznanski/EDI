@@ -18,6 +18,7 @@ xmlhttp.onreadystatechange = function() {
         myFunction(myArr);
     }
 };
+console.log(myArr)
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
 
