@@ -34,7 +34,7 @@ form, input {
     align-items: center;
 }
 
-#author-name, #author-studies {
+#authors-names, {
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ form, input {
     padding: 15px;
 }
 
-.author-container {
+.authors-container {
     display: flex;
     flex-direction: column;
 
