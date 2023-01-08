@@ -26,7 +26,7 @@ function myFunction(arr) {
     var out = "";
     var i;
     for(i = 0; i < arr.length; i++) {
-        out += '<a href="' + arr[i].url + '">' +
+        out += '<a href="' + arr[i] + '">' +
         arr[i].display + '</a><br>';
     }
     document.getElementById("lol").innerHTML = out;
