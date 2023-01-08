@@ -15,16 +15,29 @@
                 <p class="authors-names">Bartłomiej Poznański, Illia Saladounikau, Maciej Pancerz</p>
             </section class="data-container">
                 <h2>Dane</h2>
-                <button onclick="">Expand table</button>Ее
+                <details>
+                    <summary>Raw JSON Data</summary>
+                <span id="raw-json"></span>
+                </details>
+                <details>
+                    <summary>Formatted table JSON Data</summary>
+                <table id="json-table"></table>
+                </details>
+            </section>
+            </section class="data-container">
+                <h2>Analiza wizualna</h2>
+                <!-- <p>Viewers age distribution:</p> -->
+                <div id="gender-chart"></div>
+                <div id="genre-chart"></div>
+
             </section>
 
         </container>
     </container>
 
 
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
